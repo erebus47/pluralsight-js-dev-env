@@ -9,7 +9,7 @@ install:
     #get the lastest stable version of node.js or ip.js
     - ps: install-products node $env:nodejs_version
     # install modules
-    -npm install
+    - npm install
     
 # Post-install test scripts.
 test_script:
