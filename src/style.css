@@ -1,0 +1,15 @@
+/* navbar style */
+#navbar {
+    background-color: darkturquoise;
+}
+
+#navbrand {
+    font-size: 40px;
+    color: cornsilk;
+    margin: 10px;
+}
+
+#navtitle {
+    font-size: 40px;
+    color: cornsilk;
+}

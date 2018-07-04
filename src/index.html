@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>practice</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- bootstrap links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      
+    <!-- CSS link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+    
+    <h1>Hello World!</h1>
+    
+    <!-- navbar start -->
+    <div id="navbar" class="navbar navbar-light navbar-sticky-top">
+      <nav id="navbrand" class="navbar-brand">47</nav>
+      <div id="navtitle" class="navbar-title text-center">Calculator</div>
+    </div>
+
+    <!-- start of calculator -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <form class="text-center">
+            <h3>please enter numbers you wish to use</h3>
+            <input id="number1" type="number"><br><br>
+            <input id="number2" type="number2"><br><br>
+            <button type="button" onClick="add()">Add</button>
+            <button type="button" onClick="subtract()">subtract</button>
+            <button type="button" onClick="multiply()">multiply</button>
+            <button type="button" onClick="divid()">divid</button>
+            <h3>your answer is:</h3>
+            <div id="answer"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- start of second part -->
+    <div id="container2" class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <p>this is just a example of how this would look like in a real site. As you can see, the section can change depending how wide/the layout of you want you site.</p>
+        </div>
+        <div class="col-md-9">
+          <p>this is really how it is tho, swag swag bitch, just trying to take up as much room as possible. ahhhhhhhhhhhhh idk, i should have written a blog today but i was like eghhhhhh i havent write one in like 2 weeks.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="container3" class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="text-center">please enter the names you wish to use foo swag swag</h4>
+          <form class="text-center">
+            <input type="text" name="names" id="namesbox">
+            <input type="submit" onclick="nameList()">
+            <div id="answer2"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- start of footer -->
+    <div id="footer" class="navbar navbar-inverse navbar-footer">
+
+    </div>
+      
+    <script src="bundle.js"></script>
+      
+  </body>
+</html>
